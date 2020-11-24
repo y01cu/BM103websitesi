@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding:5px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+  
+li a:link { background-color:DarkOrchid;
+}
+li a:visited { background-color:DarkOrchid;}
+li a:hover {background-color:Red;}
+li a:active {background-color:Red;}
+  
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+.header{
+		color:white;
+		}
+.footer{background-color:powderblue;
+		color:Crimson;
+        height:50px;
+		border:4px inset white;
+		}	
+	
+.sağ {
+
+}
+.sol {
+
+}
+.orta { 
+text-align:center;
+}
+ul{	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:auto;
+	
+}
+li {float:left;
+	overflow:auto;}
+li a {display:block;
+	  color:white;
+	  text-align:center;
+	  padding:10px;
+	  text-decoration:none;
+	  border:7px inset white;
+	  border-radius:17px;
+}
+#house	{
+		width:75%;
+		display:block;
+		margin-bottom:10px;
+		margin-left:auto;
+		margin-right:auto;
+		border:3px solid Crimson;
+		border-radius:9px;
+	}
+#rehberlik	{
+		width:75%;
+		display:block;
+		margin-top:10px;
+		margin-bottom:10px;
+		margin-left:auto;
+		margin-right:auto;
+		border:3px solid Crimson;
+		border-radius:9px;
+	}
+	
+.logokk1{border:15px outset white;
+	width:100%;
+}
+@media only screen and (min-width: 700px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+#yazı1 {
+
+}
+@media only screen and (min-width: 868px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;} 
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+body {font-family:Comic Sans MS;
+	  font-style:italic;
+	  background-color:DimGray;}
+.face {
+		max-width:50px;
+		height:42px;
+		float:right;
+}
+.in {
+		max-width:50px;
+		height:42px;
+		float:right;
+}	
+.tw {
+		max-width:50px;
+		height:42px;
+		float:right;
+}  
+.inst {
+		max-width:50px;
+		height:42px;
+		float:right;
+}
+#yazı1 {
+		border:3px solid white;
+		border-radius:3px;
+
+}
+#yazı2 {
+		border:3px solid white;
+		border-radius:3px;
+
+}
+
+
+</style>
+</head>
+<body>
+<div class="header">
+<h1><img class="logokk1" src="logokk1.png" alt="logokk1"></h1>
+</div>
+<div >
+	<ul>
+		<li class="col-3"><a href="index.html">ANASAYFA</a></li>
+		<li class="col-2"><a href="Hizmetler.html">HİZMETLER</a></li>
+		<li class="col-2"><a href="Kurumsal.html">KURUMSAL</a></li>
+		<li class="col-2"><a href="Kariyer.html">KARİYER</a></li>
+		<li class="col-3"><a href="İletişim.html">İLETİŞİM</a></li>
+
+	</ul>
+</div>
+</div>
+<div class="row">
+	<div class="navi">
+		
+	</div>
+	<div class="col-2 col-s-2 sol">
+
+		<h1></h1>
+		<p></p>
+	</div>
+	<div class="col-8  col-s-8 orta">
+	<h2 style="text-align:center;">Çalışanlarımıza Sunduğumuz İmkanlar</h2>
+	<div><img id="house" src="house.jpg" alt="rehberlik"></div>
+	<div id="yazı1">
+	<p1>
+Since the result of using the box-sizing border-box; is so much better, many developers want all elements on their pages to work this way. Note Center aligning has no effect if the width property is not set (or set to 100%).When setting the style for several link states, there are some order rules
+Since the result of using the box-sizing border-box; is so much better, many developers want all elements on their pages to work this way. Note Center aligning has no effect if the width property is not set (or set to 100%).When setting the style for several link states, there are some order rules
+	</p1>
+	</div>
+	<div><img id="rehberlik" src="rehberlik.jpeg" alt="rehberlik"></div>
+	
+	<div id="yazı1">
+	<p1>
+Since the result of using the box-sizing border-box; is so much better, many developers want all elements on their pages to work this way. Note Center aligning has no effect if the width property is not set (or set to 100%).When setting the style for several link states, there are some order rules
+Since the result of using the box-sizing border-box; is so much better, many developers want all elements on their pages to work this way. Note Center aligning has no effect if the width property is not set (or set to 100%).When setting the style for several link states, there are some order rules
+	</p1>
+	</div>
+	</div>
+	<div class="col-2 col-s-2 sağ">
+		<p></p>
+	</div>
+</div>
+<div class="footer">
+Copyright ©
+<a href="https://www.facebook.com/"><img class="face" src="face.png" alt="fb"</a>
+<a href="https://tr.linkedin.com/"> <img class="in" src="in.png" alt="in"></a>
+<a href="https://twitter.com/"> <img class="tw" src="tw.png" alt="tw"></a>
+<a href="https://www.instagram.com/?hl=tr"> <img class="inst" src="inst.png" alt="inst"></a>
+</div>
+
+
+
+
+
+</body>
+</html>
